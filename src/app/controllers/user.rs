@@ -5,7 +5,7 @@ use axum::{
     response::IntoResponse
 };
 use serde::Deserialize;
-use crate::app::models::prelude::User;
+// use crate::app::models::prelude::User;
 
 // Retrieve a list of all users
 pub async fn index() -> impl IntoResponse {

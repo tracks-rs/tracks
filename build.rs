@@ -68,3 +68,5 @@ fn update_prelude_file(dir: &str) -> Result<()> {
 fn is_rust_file(entry: &DirEntry) -> bool {
     entry.path().extension().map_or(false, |ext| ext == "rs")
 }
+
+//sea-orm-cli migrate generate create_users_table -d ./src/db/migrations
