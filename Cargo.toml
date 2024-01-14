@@ -2,6 +2,15 @@
 name = "tracks"
 version = "0.1.0"
 edition = "2021"
+authors = ["Ryan Kopf <ryan@ryankopf.com>"] # List of crate authors
+description = "A web framework for Rust, inspired by Ruby on Rails, with enhancements for jobs, watchers, and other components."
+license = "MIT"
+repository = "https://github.com/tracks-rs/tracks"
+homepage = "https://github.com/tracks-rs/tracks"
+documentation = "https://github.com/tracks-rs/tracks"
+keywords = ["web-framework", "rust", "rails-inspired"] # Keywords to find your crate
+categories = ["web-programming", "asynchronous"] # Categories from crates.io
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
